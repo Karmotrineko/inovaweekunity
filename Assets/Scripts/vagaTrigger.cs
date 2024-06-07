@@ -4,27 +4,30 @@ using UnityEngine;
 
 public class vagaTrigger : MonoBehaviour
 {
-    public carro_info info;
-    public CameraMovement cameramovement;
-    public bool livre = true;
-    private GameObject cameras;
+    private CameraManager cameraManager;
     public int vagaId;
-    // Start is called before the first frame update
+
     void Start()
     {
-        cameras = GameObject.Find("CameraManager");
+        cameraManager = GameObject.Find("CameraManager").GetComponent<CameraManager>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Carro"))
         {
-            cameras.GetComponent<CameraManager>().vagas.Add(vagaId, other.gameObject.GetComponent<carro_info>().placa);
+            string placa = other.gameObject.GetComponent<carro_info>().placa;
+            cameraManager.AdicionarCarro(vagaId, placa);
+            Debug.Log($"Carro {placa} entrou na vaga {vagaId}");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Carro"))
+        {
+            cameraManager.RemoverCarro(vagaId);
+            Debug.Log($"Carro saiu da vaga {vagaId}");
         }
     }
 }

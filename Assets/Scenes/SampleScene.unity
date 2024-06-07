@@ -155,9 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 5
 --- !u!65 &192712885
 BoxCollider:
@@ -277,9 +274,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 7
 --- !u!65 &312457504
 BoxCollider:
@@ -399,9 +393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 0
 --- !u!65 &344758432
 BoxCollider:
@@ -607,9 +598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 2
 --- !u!1 &494551700
 GameObject:
@@ -776,9 +764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 9
 --- !u!65 &510488773
 BoxCollider:
@@ -898,9 +883,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 10
 --- !u!65 &551049993
 BoxCollider:
@@ -1357,6 +1339,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 167908615787228597, guid: f5d376b3f09bf764e9a1375c5f034f83, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1612370395662069233, guid: f5d376b3f09bf764e9a1375c5f034f83, type: 3}
       propertyPath: m_Name
       value: Carro_vermelho
@@ -1438,9 +1424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 8
 --- !u!65 &1242071851
 BoxCollider:
@@ -1614,9 +1597,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 11
 --- !u!65 &1415251126
 BoxCollider:
@@ -1736,9 +1716,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 4
 --- !u!65 &1690603405
 BoxCollider:
@@ -1858,9 +1835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 6
 --- !u!65 &1895684139
 BoxCollider:
@@ -1980,9 +1954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 1
 --- !u!65 &2053521324
 BoxCollider:
@@ -2102,9 +2073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3547a1c8365984e9e320ca68223e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 0}
-  cameramovement: {fileID: 963194229}
-  livre: 1
   vagaId: 3
 --- !u!65 &2120355030
 BoxCollider:
@@ -2244,6 +2212,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6996688481348149316, guid: 7018509e1d1faba48a5bb532e65261aa, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2295,6 +2267,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1113620330562236789, guid: 698d655a487931743990b1f5a218cc06, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684481149652904494, guid: 698d655a487931743990b1f5a218cc06, type: 3}
+      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4250191601521334204, guid: 698d655a487931743990b1f5a218cc06, type: 3}
@@ -2356,6 +2332,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645461655931091527, guid: 5093f46d3d3fc944bad97e60ef31b35a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031859663085483821, guid: 5093f46d3d3fc944bad97e60ef31b35a, type: 3}
+      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
